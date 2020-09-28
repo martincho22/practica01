@@ -13,9 +13,9 @@
 $numero = $_POST['numero'];
 
 if($numero == 4){
-    echo 'Perfecto!!',"<img src=ok.png>";
+    echo 'Perfecto!!','<img src="ok.png">';
         }else{
-            echo 'NO!',"<img src=error.png>";
+            echo 'NO!','<img src="error.png">';
         }
 ?>
 
